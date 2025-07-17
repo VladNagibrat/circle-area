@@ -4,4 +4,5 @@ def area(radius):
     return math.pi * radius ** 2
 
 if __name__ == "__main__":
-    print(area(5))
+    radius = float(input("Введите радиус: "))
+    print(f"Площадь круга: {area(radius)}")
